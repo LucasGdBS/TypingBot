@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD041 MD033 MD045 -->
 ![botlogo](https://github.com/LucasGdBS/TypingBot/assets/114539692/6515ba70-9609-49db-87b5-e9e4898337d5)
 
 # 🤖 Typing Bot
