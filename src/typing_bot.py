@@ -72,7 +72,7 @@ class TypingBot:
         # Para pegar a quantidade de palavras por minuto
         stats = self.driver.find_element(By.CLASS_NAME, 'stats')
         wpm = stats.find_element(By.CLASS_NAME, 'bottom').text
-        wpm = f'\033[92mPalavras por minuto em MonkeyType: {wpm}\033[0m'
+        wpm = f'\033[92mPalavras por minuto em MonkeyType: {wpm}wpm\033[0m'
 
         self.driver.close()
         return wpm
