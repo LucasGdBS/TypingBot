@@ -39,7 +39,7 @@ class TypingBot:
         self.init_diver()
 
         self.driver.get('https://monkeytype.com')
-        sleep(2)
+        sleep(0.5)
 
         self.driver.find_element(By.TAG_NAME, 'button').click()
         sleep(0.5)
@@ -57,10 +57,6 @@ class TypingBot:
                 .send_keys(''.join([letra.text for letra in letras]) + ' ')\
                 .perform()
 
-        sleep(10)
+        sleep(5)
 
         self.driver.close()
-
-alfa = TypingBot()
-alfa.write_alfabet()
-alfa.monkey_type()
